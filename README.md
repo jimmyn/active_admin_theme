@@ -10,7 +10,7 @@ Having active admin installed add the following line to your application's Gemfi
 
 
 ```ruby
-gem 'active_admin_theme'
+gem 'activeadmin_theme'
 ```
 
 And then execute:
@@ -19,12 +19,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install active_admin_theme
+    $ gem install activeadmin_theme
 
 ## Usage
 
 ```css
-@import "active_admin_theme";
+@import "activeadmin_theme";
 ```
   
 ## Screen
