@@ -518,7 +518,8 @@ form fieldset.inputs {
 
 form{
 
-  input, textarea, select, .selectize-input, .ms-list {
+  input, textarea, select, .selectize-input,
+  .ms-selectable .ms-list, .ms-selection .ms-list {
     border: 1px solid #e6e9ee;
     background-color: #fdfefe;
     max-width: 500px;
