@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activeadmin-theme (1.0.3)
+    activeadmin-theme (1.0.2)
 
 GEM
   remote: https://rubygems.org/
