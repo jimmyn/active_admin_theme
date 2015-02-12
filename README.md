@@ -24,7 +24,7 @@ Or install it yourself as:
 ## Usage
 
 ```css
-@import "wigu/active_admin_theme";
+@import "active_admin_theme";
 ```
   
 ## Screen
