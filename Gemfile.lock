@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    active_admin_theme (1.0.2)
+    activeadmin-theme (1.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -12,6 +12,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_admin_theme!
+  activeadmin-theme!
   bundler (~> 1.7)
   rake (~> 10.0)
