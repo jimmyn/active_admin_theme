@@ -1,4 +1,4 @@
-require "activeadmin_theme/version"
+require "active_admin_theme/version"
 
 module ActiveAdminTheme
   module Rails
