@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_admin_theme/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "activeadmin-theme"
+  spec.name          = "active_admin_theme"
   spec.version       = ActiveAdminTheme::VERSION
-  spec.authors       = ["Igor Fedoronchuk", "Alex Sikorskiy", "Dmitriy Nevzorov"]
-  spec.email         = ["igor.f@didww.com", "alex.s@didww.com", "dmitriy@4isten.co"]
+  spec.authors       = ["Igor Fedoronchuk", "Alex Sikorskiy"]
+  spec.email         = ["igor.f@didww.com", "alex.s@didww.com"]
   spec.summary       = %q{Flat design for ActiveAdmin}
   spec.description   = %q{Flat design for activeadmin gem }
-  spec.homepage      = "https://github.com/jimmyn/active_admin_theme"
+  spec.homepage      = "https://github.com/didww/active_admin_theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
