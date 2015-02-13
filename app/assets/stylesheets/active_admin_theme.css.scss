@@ -120,12 +120,13 @@ body.logged_out .flash {
     background-color: lighten($skinMainFirstColor, 8%);
     border: none;
     border-bottom: 3px solid $skinMainSecondColor;
+    height: 60px;
     #titlebar_left {
       height: auto;
       span.breadcrumb {
         font-size: 12px;
         text-shadow: none;
-        margin-bottom: 8px;
+        margin-bottom: 5px;
         a, span {
           color: lighten($skinMainFirstColor, 30%) !important;;
         }
