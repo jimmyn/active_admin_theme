@@ -29,7 +29,10 @@ Or install it yourself as:
   
 ## Screen
 
-<a href="./img/wigu.png"><img src="./img/wigu.png"></a>
+<a href="./img/1.png"><img src="./img/1.png"></a>
+<a href="./img/2.png"><img src="./img/2.png"></a>
+<a href="./img/3.png"><img src="./img/3.png"></a>
+<a href="./img/4.png"><img src="./img/4.png"></a>
 
 
 ## Contributing
