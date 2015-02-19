@@ -442,10 +442,6 @@ body.logged_out .flash {
   padding-right: 10px;
 }
 
-.attributes_table th{
-  width: 250px;
-  padding-right: 10px;
-}
 
 form fieldset > ol > li fieldset.fragments ol {
   margin-left: 20%;
@@ -697,6 +693,8 @@ form{
 
 .attributes_table table th {
   color: $skinLabelColor;
+  width: 250px;
+  padding-right: 10px;
 }
 
 .comments form.active_admin_comment fieldset.inputs {
