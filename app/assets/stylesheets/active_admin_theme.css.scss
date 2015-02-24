@@ -798,6 +798,11 @@ form fieldset > ol > li fieldset ol li {
   box-shadow: none;
   background-color: #ffffff;
   border-bottom: 2px solid $skinBorderWindowColor;
+  .crop_modal_content {
+    overflow: visible;
+    width: auto !important;
+    height: auto !important;
+  }
   .ui-dialog-titlebar {
     @include clearfix;
     background-image: none;
@@ -808,6 +813,7 @@ form fieldset > ol > li fieldset ol li {
     color: #ffffff;
     border: none;
     padding: 8px 15px;
+    margin-bottom: 0;
     font-weight: 400;
 
     -webkit-border-top-left-radius: $skinBorderRadius;
@@ -922,10 +928,10 @@ table#settings{
   background: #f7f7f7;
 }
 
-
 .ui-widget-overlay {
   background: rgba(0, 0, 0, 0.7);
 }
+
 
 //becouse of sidebar border 2px
 form.filter_form .filter_form_field{
