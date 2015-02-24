@@ -799,6 +799,7 @@ form fieldset > ol > li fieldset ol li {
   background-color: #ffffff;
   border-bottom: 2px solid $skinBorderWindowColor;
   .ui-dialog-titlebar {
+    @include clearfix;
     background-image: none;
     box-shadow: none;
     text-shadow: none;
@@ -815,6 +816,11 @@ form fieldset > ol > li fieldset ol li {
     -moz-border-radius-topright: $skinBorderRadius;
     border-top-left-radius: $skinBorderRadius;
     border-top-right-radius: $skinBorderRadius;
+    button{
+      float: right;
+      @extend a.button;
+      padding: 5px;
+    }
   }
   form {
     ul {
